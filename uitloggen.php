@@ -9,6 +9,6 @@ $_SESSION = array();
 session_destroy();
  
 // Terug naar de homepage
-header("location: index.php");
+header("location: inloggen.php");
 exit;
 ?>
