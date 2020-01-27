@@ -21,7 +21,7 @@ session_start();
 </head>
 <body>
     <div>
-        <h1>Hallo, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welkom op onze site!</h1>
+        <h1>Hoi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welkom op onze site!</h1>
     </div>
     <p>
         <a href="uitloggen.php" class="btn btn-danger">Uitloggen</a>
